@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pour Prunelle ✦</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="./js/tracking.js">
+</script>
+<body>
+
+<div class="red-stripe-banner"></div>
+
+<!-- ══ HERO ══ -->
+<section class="hero" id="s-hero">
+  <div class="hero-bg-blobs">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+  </div>
+
+  <!-- 🇨🇩 DRAPEAU RDC -->
+  <div class="rdc-badge">
+    <div class="rdc-flag">
+      <div class="rdc-blue">
+        <div class="rdc-stripe-yellow-top"></div>
+        <div class="rdc-stripe"></div>
+        <div class="rdc-stripe-yellow-bot"></div>
+        <div class="rdc-star">★</div>
+      </div>
+    </div>
+    <div class="rdc-label">Nigga From Congo</div>
+  </div>
+
+  <div class="floating-sticker" style="top:10%;left:7%;--r0:-8deg;--r1:4deg;animation-duration:8s;animation-delay:-2s">
+  <img src="./img/snoooow.jpeg" alt="">
+</div>
+
+  <div class="floating-sticker" style="top:12%;right:9%;--r0:5deg;--r1:-7deg;animation-duration:8s;animation-delay:-2s">
+    <img src="./img/cartman2.jpeg" alt="Star">
+  </div>
+  <div class="floating-sticker" style="bottom:15%;left:12%;--r0:3deg;--r1:-5deg;animation-duration:7s;animation-delay:-1s">
+    <img src="./img/noel.jpeg" alt="Rose">
+  </div>
+  <div class="floating-sticker" style="bottom:18%;right:10%;--r0:-4deg;--r1:7deg;animation-duration:9s;animation-delay:-3s">
+    <img src="./img/laurynsexy.jpeg" alt="Trophy">
+  </div>
+  <div class="floating-sticker" style="top:48%;left:3%;--r0:-6deg;--r1:3deg;animation-duration:5.5s">
+    <img src="./img/selfiered.jpeg" alt="Blood">
+  </div>
+  <div class="floating-sticker" style="top:40%;right:5%;--r0:4deg;--r1:-7deg;animation-duration:7.5s;animation-delay:-4s">
+    <img src="./img/3fingers.jpeg" alt="New Sticker">
+  </div>
+  <div class="hero-name">Pour<br><span>Prunelle</span></div>
+  <p class="hero-sub">✦This Website is PrunelleML Property✦</p>
+  <div class="hero-hearts">
+    <div class="heart-pill">MJ forever</div>
+    <div class="heart-pill">JoJo fan</div>
+    <div class="heart-pill">YVL til I die</div>
+    <div class="heart-pill">Music First</div>
+    <div class="heart-pill">Strange & Awesome</div>
+  </div>
+  <div class="scroll-hint">↓ explore ↓</div>
+</section>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <button class="nav-pill" onclick="document.getElementById('s-gallery').scrollIntoView({behavior:'smooth'})">Galerie</button>
+  <button class="nav-pill" onclick="document.getElementById('s-univers').scrollIntoView({behavior:'smooth'})">Son univers</button>
+  <button class="nav-pill" onclick="document.getElementById('s-mood').scrollIntoView({behavior:'smooth'})">Moodboard</button>
+  <button class="nav-pill" onclick="document.getElementById('s-moments').scrollIntoView({behavior:'smooth'})">Moments</button>
+  <button class="nav-pill" onclick="document.getElementById('s-playlist').scrollIntoView({behavior:'smooth'})">Playlist</button>
+  <button class="nav-pill" onclick="document.getElementById('s-lettre').scrollIntoView({behavior:'smooth'})">Lettre</button>
+</nav>
+
+<div class="red-divider"></div>
+
+<!-- ══ GALERIE ══ -->
+<section class="section gallery-section" id="s-gallery">
+  <div class="section-label">galerie photos</div>
+  <div class="section-title">Pruchou's World</div>
+  <div class="carousel-outer">
+    <div class="carousel-inner" id="ci"></div>
+  </div>
+  <div class="caro-nav">
+    <button class="cbtn" id="cprev">&#8592;</button>
+    <div class="cdots" id="cdots"></div>
+    <button class="cbtn" id="cnext">&#8594;</button>
+  </div>
+  <div class="cthumbs-row" id="cthumbs"></div>
+</section>
+
+<!-- ══ SON UNIVERS ══ -->
+<section class="section univers-section" id="s-univers">
+  <div class="section-label">Her favorite things</div>
+  <div class="section-title">Broski's World</div>
+  <div class="univers-grid">
+
+    <div class="ucard">
+      <div class="uimg"><img src="./img/Michael-Jackson.jpg"></div>
+      <div class="uname">Michael Jackson</div>
+      <div class="utag">King of Pop</div>
+    </div>
+
+    <div class="ucard">
+      <div class="uimg"><img src="./img/gyroo.webp"></div>
+      <div class="uname">JoJo's Bizarre</div>
+      <div class="utag">Stand Users</div>
+    </div>
+
+    <div class="ucard">
+      <div class="uimg"><img src="./img/livai.png"></div>
+      <div class="uname">Attack on Titan</div>
+      <div class="utag">Survey Corps</div>
+    </div>
+
+    <div class="ucard">
+      <div class="uimg"><img src="./img/kencare.jpeg"></div>
+      <div class="uname">Ken Carson</div>
+      <div class="utag">A Great Chaos</div>
+    </div>
+
+    <div class="ucard">
+      <div class="uimg"><img src="./img/curry.webp"></div>
+      <div class="uname">Golden State Warriors</div>
+      <div class="utag">Dubs Nation</div>
+    </div>
+
+    <div class="ucard">
+      <div class="uimg"><img src="./img/music.jpg"></div>
+      <div class="uname">Music</div>
+      <div class="utag">Her religion</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ MOODBOARD ══ -->
+<section class="section mood-section" id="s-mood">
+  <div class="section-label">moodboard</div>
+  <div class="section-title">How to define Pruchou</div>
+  <div class="mood-board">
+    <div class="mood-item m-rose"  style="top:8%;left:5%;transform:rotate(-4deg)">Thousand Sunny</div>
+    <div class="mood-item m-gold"  style="top:6%;right:8%;transform:rotate(3deg)">Feur</div>
+    <div class="mood-item m-dark"  style="top:20%;left:34%;transform:rotate(-2deg)">Ora ora ora</div>
+    <div class="mood-item m-lav"   style="top:30%;left:3%;transform:rotate(5deg)">Famiii</div>
+    <div class="mood-item m-white" style="top:32%;right:5%;transform:rotate(-3deg)">Muluba 100%</div>
+    <div class="mood-item m-peach" style="top:55%;left:6%;transform:rotate(-5deg)">Political Master </div>
+    <div class="mood-item m-rose"  style="bottom:18%;right:10%;transform:rotate(4deg)">YVL</div>
+    <div class="mood-item m-dark"  style="bottom:10%;right:28%;transform:rotate(2deg)">Strange & Awesome</div>
+    <div class="mood-item m-gold"  style="bottom:8%;left:8%;transform:rotate(-3deg)">Attack on love</div>
+    <div class="mood-item m-lav"   style="top:60%;left:42%;transform:rotate(-2deg)">Stand User</div>
+    <div class="mood-center">
+      <div class="mc-name">Prunelle</div>
+      <div class="mc-sub">✦ Gangstalicious ✦</div>
+    </div>
+  </div>
+</section>
+<section class="section moments-section" id="s-moments">
+  <div class="section-label">#WTFMOMENTS</div>
+  <div class="section-title">The chapters of her story</div>
+  <div class="timeline">
+
+    <div class="titem">
+      <div class="tdot"></div>
+      <div class="tcontent">
+        <div class="tt">Smart Since Day one</div>
+        <div class="ts">Yeah That's our Prunelle</div>
+        <!-- Replace the div.timg with <img src="photo.jpg" style="width:100%;height:120px;object-fit:cover;border-radius:10px;margin-top:10px"> -->
+        <div class="timg">
+  <img src="./img/babydip.jpeg" alt="Baby Dip">
+</div>
+      </div>
+    </div>
+
+    <div class="titem">
+      <div class="tdot"></div>
+      <div class="tcontent">
+        <div class="tt">A musical moment</div>
+        <div class="ts">The music playing, and you dancing — describe this memory.</div>
+      <div class="timg">
+  <img src="./img/singingfav.jpeg" alt="">
+</div>
+      </div>
+    </div>
+
+    <div class="titem">
+      <div class="tdot"></div>
+      <div class="tcontent">
+        <div class="tt">That day</div>
+        <div class="ts">Favorite Duo of Your Favorite DUO.</div>
+        <div class="timg">
+  <img src="./img/us2.jpeg" alt="">
+</div>
+      </div>
+    </div>
+
+    <div class="titem">
+      <div class="tdot"></div>
+      <div class="tcontent">
+        <div class="tt"> WOF WOF</div>
+        <div class="ts">Who is your dog bitchass.</div>
+        <div class="timg">
+  <img src="./img/dog.jpeg" alt="">
+</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ PLAYLIST ══ -->
+<section class="section playlist-section" id="s-playlist">
+  <div class="section-label">her playlist</div>
+  <div class="section-title">Pruchou's Playlist</div>
+  <div class="pl-grid" id="plgrid"></div>
+</section>
+
+<!-- ══ LETTRE ══ -->
+<section class="section msg-section" id="s-lettre">
+  <div class="section-label">A word for my Brooo</div>
+  <div class="section-title">Dear Prunelle…</div>
+  <div class="letter-card">
+    <div class="letter-stamp"></div>
+    <div class="letter-open">To open with a smile ✦</div>
+    <div class="letter-text">
+      This little site is for you.<br><br>
+      Because you deserve to have <strong>your own corner of the internet</strong>,
+      filled with everything you love — MJ moonwalking in your head,
+      stands summoning in your room,
+      Titans behind the walls and Carti in your headphones.<br><br>
+      <strong>Prunelle</strong>, you are as unique as the weird universe you inhabit.
+      And the Warriors are lucky to have you on their team.<br><br>
+      Because there's only one you in the whole world.
+    </div>
+    <div class="letter-sig">With all that's needed ♡</div>
+    <div class="letter-deco">✦</div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-name">Prunelle ✦</div>
+  <div class="footer-sub"> by miles · for my broski · Love x1000</div>
+  <!-- Drapeau RDC dans le footer -->
+  <div class="footer-hearts">
+    <span class="fh" style="animation-delay:0s">♥</span>
+    <span class="fh" style="animation-delay:0.2s">♥</span>
+    <span class="fh" style="animation-delay:0.4s">♥</span>
+    <span class="fh" style="animation-delay:0.6s">♥</span>
+    <span class="fh" style="animation-delay:0.8s">♥</span>
+  </div>
+</footer>
+<script src="./js/script.js">
+</script>
+</body>
+</html>
