@@ -1,12 +1,12 @@
 // ── CAROUSEL 3D ──
 const slides=[
-  {name:"Michael Jackson",tag:"King of Pop",bg:"#E8002D",ico:"🎩",img:"./img/michael-jackson.jpg"},
+  {name:"Michael Jackson",tag:"King of Pop",bg:"#E8002D",ico:"🎩",img:"./img/michael-jackson.jpeg"},
   {name:"JoJo's Bizarre",tag:"Stand User",bg:"#C084FC",ico:"⭐",img:"./img/gyroo.webp"},
   {name:"L'Attaque des Titans",tag:"Survey Corps",bg:"#C00020",ico:"⚔️",img:"./img/livai.png"},
   {name:"Playboi Carti",tag:"Playboi Carti",bg:"#FF1744",ico:"🩸",img:"./img/kencarson.jpeg"},
   {name:"Golden State Warriors",tag:"Champions",bg:"#F5C518",ico:"🏆",img:"./img/curry.webp"},
-  {name:"Nos souvenirs",tag:"Ajoute tes photos",bg:"#FF4D6D",ico:"📸",img:"./img/noel.jpeg"},
-  {name:"Ensemble",tag:"Notre histoire",bg:"#E8002D",ico:"🌹", img:"./img/us.jpeg"},
+  {name:"Santa Mommy",tag:"rizzing santa bro?",bg:"#FF4D6D",ico:"📸",img:"./img/noel.jpeg"},
+  {name:"DUO",tag:"ML42",bg:"#E8002D",ico:"🌹", img:"./img/us.jpeg"},
 ];
 
 const R=280;
