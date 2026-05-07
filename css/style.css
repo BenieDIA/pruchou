@@ -14,6 +14,7 @@ body{background:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden}
 /* ── RDC FLAG ── */
 .rdc-badge{position:absolute;top:32px;right:32px;z-index:20;display:flex;flex-direction:column;align-items:center;gap:6px;animation:stickerFloat 6s ease-in-out infinite;--r0:-3deg;--r1:3deg}
 .rdc-flag{width:72px;height:48px;border-radius:8px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,0.2);border:2px solid white;position:relative}
+.rdc-flag img{width:100%;height:100%;object-fit:cover;display:block}
 .rdc-blue{width:100%;height:100%;background:#007FFF;position:relative}
 .rdc-stripe{position:absolute;top:50%;left:-10%;right:-10%;height:30%;transform:translateY(-50%) rotate(-7deg);background:var(--red-deep);box-shadow:0 2px 8px rgba(200,0,32,0.4)}
 .rdc-stripe-yellow-top{position:absolute;top:50%;left:-10%;right:-10%;height:8%;transform:translateY(calc(-50% - 90%)) rotate(-7deg);background:#FFCD00}
