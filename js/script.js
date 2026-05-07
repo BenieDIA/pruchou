@@ -61,12 +61,12 @@ timer=setInterval(()=>goTo(cur+1),4200);
 
 // ── PLAYLIST ──
 const songs=[
-  {title:"Thriller",artist:"Michael Jackson",ico:"",tag:"Légende",bg:"#FF4D6D"},
+  {title:"Bad",artist:"Michael Jackson",ico:"",tag:"Légende",bg:"#FF4D6D"},
   {title:"Crazy Noisy Bizarre Town",artist:"Yugo Kanno",ico:"",tag:"Stand power",bg:"#C084FC"},
   {title:"Sky Walker",artist:"Playboi Carti",ico:"",tag:"Vamp mode",bg:"#E63946"},
-  {title:"Alliance",artist:"Fally Ipupa Dicap La merveille",ico:"",tag:"Survey Corps",bg:"#F5A623"},
-  {title:"Don't Stop 'Til You Get Enough",artist:"Michael Jackson",ico:"",tag:"Classic",bg:"#FF8C69"},
-  {title:"White keys",artist:"Dominik Fike",ico:"",tag:"Trendy",bg:"#C084FC"},
+  {title:"Amour assassins",artist:"Fally Ipupa Dicap La merveille",ico:"",tag:"Survey Corps",bg:"#F5A623"},
+  {title:"ABC",artist:"Michael Jackson",ico:"",tag:"Classic",bg:"#FF8C69"},
+  {title:"Happier",artist:"Marshmello",ico:"",tag:"Trendy",bg:"#C084FC"},
 ];
 const pg=document.getElementById('plgrid');
 songs.forEach((s,i)=>{
