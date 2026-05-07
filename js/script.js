@@ -63,8 +63,8 @@ timer=setInterval(()=>goTo(cur+1),4200);
 const songs=[
   {title:"Bad",artist:"Michael Jackson",ico:"",tag:"Légende",bg:"#FF4D6D"},
   {title:"Crazy Noisy Bizarre Town",artist:"Yugo Kanno",ico:"",tag:"Stand power",bg:"#C084FC"},
-  {title:"Sky Walker",artist:"Playboi Carti",ico:"",tag:"Vamp mode",bg:"#E63946"},
-  {title:"Amour assassins",artist:"Fally Ipupa Dicap La merveille",ico:"",tag:"Survey Corps",bg:"#F5A623"},
+  {title:"Jennifer's Body",artist:"Ken Carson",ico:"",tag:"Vamp mode",bg:"#E63946"},
+  {title:"Amour assassin",artist:"Fally Ipupa Dicap La merveille",ico:"",tag:"Survey Corps",bg:"#F5A623"},
   {title:"ABC",artist:"Michael Jackson",ico:"",tag:"Classic",bg:"#FF8C69"},
   {title:"Happier",artist:"Marshmello",ico:"",tag:"Trendy",bg:"#C084FC"},
 ];
