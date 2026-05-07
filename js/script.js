@@ -114,7 +114,7 @@ const songs=[
     ico:"⏵︎",
     tag:"Classic",
     bg:"#F5A623",
-    audio:"./music/Fally-Ipupa.mp3"
+    audio:"./music/fally.mp3"
   },
   {
     title:"ABC",
@@ -130,7 +130,7 @@ const songs=[
     ico:"⏵︎",
     tag:"Trendy",
     bg:"#C084FC",
-    audio:"./audio/happier.mp3"
+    audio:"./music/happier.mp3"
   },
 ];
 
